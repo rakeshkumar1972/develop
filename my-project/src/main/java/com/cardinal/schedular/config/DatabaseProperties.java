@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 /**
  * @author Rakesh.Kumar
+ *
  */
 @ConfigurationProperties(prefix = "spring.datasource" ,locations = "classpath:application.properties")
 public class DatabaseProperties {
